@@ -1,0 +1,49 @@
+vc++ Directries
+C:\opencv\build\x86\vc12;$(ExecutablePath)
+
+c/c++ -> General -> Additional Include Dirctories
+C:\opencv\build\include;..\include
+
+Linker -> input
+
+Leap.lib
+kernel32.lib
+user32.lib
+gdi32.lib
+winspool.lib
+comdlg32.lib
+advapi32.lib
+shell32.lib
+ole32.lib
+oleaut32.lib
+uuid.lib
+odbc32.lib
+odbccp32.lib
+opencv_calib3d2411d.lib
+opencv_contrib2411d.lib
+opencv_core2411d.lib
+opencv_features2d2411d.lib
+opencv_flann2411d.lib
+opencv_gpu2411d.lib
+opencv_highgui2411d.lib
+opencv_imgproc2411d.lib
+opencv_legacy2411d.lib
+opencv_ml2411d.lib
+opencv_nonfree2411d.lib
+opencv_objdetect2411d.lib
+opencv_photo2411d.lib
+opencv_stitching2411d.lib
+opencv_ts2411d.lib
+opencv_video2411d.lib
+opencv_videostab2411d.lib
+
+
+post build event
+copy ..\lib\x86\Leap.dll "$(OutDir)"
+Copy required DLLs
+
+system variable : path setting
+E:\Libraries\Leap_Motion_SDK_Windows_2.2.6\LeapDeveloperKit_2.2.6+29154_win\LeapSDK\lib
+
+user variable :
+E:\
