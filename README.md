@@ -9,9 +9,14 @@ After getting this mesh model we can use in games and other simulation environme
 
 # Required Hardware & Software Components
 PCL (Point Cloud Library)
+
 OpenCV
+
 CGAL
+
 CUDA
+
 VTK Toolkit
+
 Leap MotionⓇ controller 
 
