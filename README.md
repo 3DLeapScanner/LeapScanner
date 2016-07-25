@@ -5,4 +5,13 @@ This project is about developing a handheld 3D scanner using Leap MotionⓇ  con
 # Data Flow
 ![capture](https://cloud.githubusercontent.com/assets/10797726/17104708/7e729fd8-529d-11e6-98ef-81607098cf50.PNG)
 
-After getting this mesh model we can use in games and other simulation envirounment
+After getting this mesh model we can use in games and other simulation environment
+
+# Required Hardware & Software Components
+PCL (Point Cloud Library)
+OpenCV
+CGAL
+CUDA
+VTK Toolkit
+Leap MotionⓇ controller 
+
